@@ -1,9 +1,9 @@
 .rsvp-section {
   background-size: cover;
   background-position: center;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 8rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
 }
