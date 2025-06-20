@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #5a685d;
+    margin: 0;
+  }
+
+  .logo-link {
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #5a685d;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links li a:hover {
+    color: #3e4a41;
+  }
+  

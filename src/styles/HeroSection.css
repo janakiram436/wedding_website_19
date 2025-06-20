@@ -1,0 +1,75 @@
+.hero {
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 5%;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #3a3a3a;
+  }
+  
+  .hero-title {
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 4.5rem;
+    font-weight: normal;
+    color: #1f3d1f;
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .countdown {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .countdown-value {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #4a5a4d;
+    margin: 0;
+  }
+  
+  .countdown-label {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.25rem;
+  }
+  
+  .hero-image {
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+  }
+  

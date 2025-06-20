@@ -1,0 +1,28 @@
+.schedule-card {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+.card-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.25rem; /* text-4xl */
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.card-date,
+.card-time {
+  font-size: 1rem; /* text-base */
+  color: #333;
+  margin: 0.25rem 0;
+}

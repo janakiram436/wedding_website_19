@@ -1,0 +1,66 @@
+.schedule-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.schedule-section .groom-details,
+.schedule-section .bride-details {
+  text-align: center;
+  padding: 0 1rem;
+  max-width: 24rem; /* max-w-sm */
+}
+
+.schedule-section .couple-image-container {
+  padding: 0 2rem; /* px-8 */
+}
+
+.schedule-section .couple-image {
+  max-width: 24rem; /* max-w-sm */
+}
+
+.schedule-section .name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem; /* text-5xl */
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.schedule-section .description {
+  color: #5c5c5c;
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem; /* leading-relaxed */
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.schedules-container {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.schedules-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.75rem; /* text-6xl */
+  margin-bottom: 3rem;
+}
+
+.schedule-cards {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+  
